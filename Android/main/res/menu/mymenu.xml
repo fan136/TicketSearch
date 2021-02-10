@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mybutton_fav"
+        android:icon="@drawable/heart_outline_white"
+        android:title="NOFAV"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mybutton_tweet"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/twitter_ic"
+        />
+</menu>

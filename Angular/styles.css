@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/*override bootstrap css*/
+
+/*.form-control:valid{border-color:rgb(206,212,217) }*/
+/*.was-validated .form-control:valid {*/
+    /*border-color:rgb(206,212,217)*/
+/*}*/
+
+/*.was-validated .form-control:valid:focus{border-color:#28a745}*/
+
+
+.was-validated .form-control:valid{
+    border-color:rgb(206,212,217)
+}
+.was-validated .form-control:valid:focus{
+    border-color:rgb(154,200,255);box-shadow:0 0 0 .2rem rgba(154,200,255,.75)
+}
+.was-validated .form-check-input:valid ~ .form-check-label, .form-check-input.is-valid ~ .form-check-label {
+    color: black;
+}

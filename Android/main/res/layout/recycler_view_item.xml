@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:padding="8dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/imageView_icon"
+      android:layout_width="46dp"
+      android:layout_height="45dp"
+      android:layout_gravity="center"
+      android:layout_margin="10dp"
+      tools:src="@tools:sample/avatars" />
+
+  <LinearLayout
+      android:id="@+id/event_layout"
+      android:layout_width="272dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginLeft="5dp"
+      android:orientation="vertical"
+      android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="@tools:sample/lorem[3]" />
+
+    <TextView
+        android:id="@+id/textView_venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/lorem[4]" />
+
+    <TextView
+        android:id="@+id/textView_dateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@tools:sample/lorem[2]" />
+  </LinearLayout>
+
+  <ImageView
+      android:id="@+id/imageView_fav"
+      android:layout_width="28dp"
+      android:layout_height="31dp"
+      android:layout_gravity="center"
+      android:layout_marginRight="12dp"
+      android:layout_weight="1"
+      android:cropToPadding="false"
+      android:scaleType="fitEnd"
+      tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
